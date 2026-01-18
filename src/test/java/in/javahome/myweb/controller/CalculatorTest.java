@@ -8,7 +8,7 @@ public class CalculatorTest extends TestCase {
 	public void testMultiply(){
 		Assert.assertEquals(cal.add(10, 20), 30);
 	}
-	public void testAdd(){
+	public void testDivide(){
 		Assert.assertEquals(cal.multiply(10, 20), 200);
 	}
 }
